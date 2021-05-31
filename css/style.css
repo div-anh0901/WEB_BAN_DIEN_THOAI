@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #ccc;
+}
+
+a{
+ text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+/********/
+.contact{
+    background-color: #009362;
+   
+    height: 40px;
+    width: 100%;
+}
+
+.contact .child {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.contact .child ul li {
+    color: white;
+    list-style: none;
+}
+
+.contact .child ul li{
+    height: 40px;
+  float: right;
+
+  padding: 6px 13px;
+  position: relative;
+}
+.contact .child ul li img {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    vertical-align: middle;
+    display: inline;
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
+}
+.contact .child ul li strong{
+    text-align: center;
+}
+.contact .child ul li::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1px;
+    border-color: rgba(255,255,255,0.2);
+    height: 15px;
+    margin-top: -9px;
+    margin-left: 9px;
+    background: white;
+
+}
+
+/********/
+nav{
+    background-color: white;
+}
+nav .header-inner {
+    padding: 10px 0;
+    height: 80px;
+    
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav .header-inner .logo picture img{
+    height: 70px;
+    width: 300px;
+}
+
+/* Danh muc San pham */
+nav .header-inner{
+}
+nav .header-inner .danh-muc-san-pham>ul {
+    display: flex;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav
+{
+    margin: 10px 20px;
+  
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .child-menu{
+  border: 1px solid black;
+  border-radius: 3px;
+ 
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav-tile i {
+    padding: 0 10px;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav-tile {
+    padding: 11px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav_menu_child {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 999;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li{
+    
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    
+}
+
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li:hover {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li:hover a {
+    color: #009362;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li a{
+    color: black;
+    font-size: 18px;
+    padding: 8px ;
+    
+}
+/* Danh muc San pham */
+nav .header-inner .danh-muc-san-pham>ul .header-search{
+    width: 475px;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-search form {
+    display: flex;
+    margin: 10px 20px 10px 10px;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-search form .flex-col input {
+    height: 41px;
+    width: 470px ;
+    outline: none;
+    padding-left: 10px;
+    position: relative;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-search form .btn-search {
+   
+    
+
+}
+nav .header-inner .danh-muc-san-pham>ul .header-search form .btn-search button{
+    height: 34px;
+    width: 34px;
+    background-color: #009362;
+    position: absolute;
+    top: 63px;
+    right: 355px;
+    border: none;
+    border-radius: 5px;
+}
+nav .header-inner .danh-muc-san-pham>ul .header-search form .btn-search button i{
+    font-size: 20px;
+    background-color: #009362;
+    border: none;
+    color: white;
+
+}
+nav .header-inner  .nav-icon {
+    margin: 10px 0 10px 40px;
+    display: flex;
+}
+nav .header-inner  .nav-icon .child a i {
+    color: black;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+nav .header-inner  .nav-icon .child a img{
+    
+}
+
+
+/* ========== section ==================*/
+
+    /*banner*/
+    section .banner {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    section .banner .banner_left {
+        margin-top: 30px;
+        border-radius: 10px;
+        height: 550px;  
+        width: 63%;
+    }
+    section .banner .banner_left .slide-child img {
+        width: 100%;
+        height: 550px;
+        border-radius: 10px;
+    }
+    section .banner .banner_right{
+        border-radius: 10px;
+        width: 35%;
+        margin-left: 30px;
+        height: auto;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+
+
+    section .banner .banner_right .title {
+        padding: 3px;
+        border-left: 5px solid #009362;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section .banner .banner_right .content .child-news {
+        display:flex;
+    }
+    section .banner .banner_right .content .child-news .child-news-img img {
+            width: 142px;
+            height: 82px;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 10px;
+    }
+    section .banner .banner_right .content .child-news  .child-news-text{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    section .banner .banner_right .content .child-news  .child-news-text h5{
+        
+        white-space: nowrap; 
+        width: 200px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        
+    }
+    section .banner .banner_right .content .child-news  .child-news-text .span p{
+        margin-top: 10px;
+        white-space: nowrap; 
+        width: 200px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        
+    }
+ /*banner*/
+
+/* Top Peoduct*/
+section .top_product {
+    width: 100%;
+    margin: 50px 0;
+}
+section .top_product .proudct_background {
+    background: url("../img/unnamed.png") no-repeat ;
+    background-position: center center;
+    height: 475px;
+    width: 80%;
+    margin: 0 auto;
+} 
+
+section .top_product .proudct_background .inside {
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 2.5%;
+    z-index: 1000;
+    border-radius: 20px;
+}
+section .top_product .proudct_background .inside  .tilte {
+    border-left: 5px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+section .top_product .proudct_background .inside  .tilte h2 {
+        padding: 5px 5px 5px 20px;
+}
+/* section .top_product .proudct_background .inside .child  {
+    display: flex;
+} */
+section .top_product .proudct_background .inside .child .product  {
+   
+    margin-top: 40px;
+    width: 90%;
+    height: 300px;
+}
+section .top_product .proudct_background .inside .child .product .slide-child .img_nen img {
+    position: relative;
+    z-index: 1000;
+  width:200px ;
+  height: 200px;
+}
+section .top_product .proudct_background .inside .child .product .slide-child .img_product img {
+    top: 40px;
+    position: absolute;
+    width:195px ;
+    height:195px;
+    z-index: 200;
+}
+
+section .top_product .proudct_background .inside .child .product .slide-child .img_product .text {
+   margin-top: 10px;
+}
+section .top_product .proudct_background .inside .child .product .slide-child .img_product .text p {
+   margin: 10px 0;
+   font-weight: 600;
+}
+section .top_product .proudct_background .inside .child .product .slide-child .img_product .text span {
+    font-weight: 500;
+    color: red;
+ }
+/* Top Peoduct*/ 
+
+
+
+/*================== section ==================*/
+
