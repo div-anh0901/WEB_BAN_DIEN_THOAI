@@ -196,12 +196,149 @@ nav .header-inner  .nav-icon .child a img{
     
 }
 
+/* ==================== .heder_mobai ================*/
+.father {
+     display: none; 
+    width: 100%;
+    background-color: white;
+}
+ .heder_mobai {
+    padding: 10px 0;
+    height: 80px;
+  
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+ .heder_mobai .logo picture img{
+    height: 70px;
+    width: 300px;
+}
+
+/* Danh muc San pham */
+
+.heder_mobai .danh-muc-san-pham>ul {
+    display: flex;
+}
+.heder_mobai .danh-muc-san-pham>ul .header-nav
+{
+    margin: 10px 20px;
+  
+}
+.heder_mobai .danh-muc-san-pham>ul .header-nav .child-menu{
+  border: 1px solid black;
+  border-radius: 3px;
+ 
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-nav .nav-tile i {
+    padding: 0 10px;
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-nav .nav-tile {
+    padding: 11px;
+    cursor: pointer;
+    position: relative;
+}
+
+ .heder_mobai .danh-muc-san-pham>ul .header-nav .nav_menu_child {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 999;
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li{
+    
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    
+}
+
+ .heder_mobai .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li:hover {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+.heder_mobai .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li:hover a {
+    color: #009362;
+}
+.heder_mobai .danh-muc-san-pham>ul .header-nav .nav_menu_child>ul>li a{
+    color: black;
+    font-size: 18px;
+    padding: 8px ;
+    
+}
+/* Danh muc San pham */
+ .heder_mobai .danh-muc-san-pham>ul .header-search{
+    width: 475px;
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-search form {
+    display: flex;
+    margin: 10px 20px 10px 10px;
+}
+.heder_mobai .danh-muc-san-pham>ul .header-search form .flex-col input {
+    height: 41px;
+    width: 470px ;
+    outline: none;
+    padding-left: 10px;
+    position: relative;
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-search form .btn-search {
+   
+    
+
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-search form .btn-search button{
+    height: 34px;
+    width: 34px;
+    background-color: #009362;
+    position: absolute;
+    top: 63px;
+    right: 355px;
+    border: none;
+    border-radius: 5px;
+}
+ .heder_mobai .danh-muc-san-pham>ul .header-search form .btn-search button i{
+    font-size: 20px;
+    background-color: #009362;
+    border: none;
+    color: white;
+
+}
+ .heder_mobai  .nav-icon {
+    margin: 10px 0 10px 40px;
+    display: flex;
+}
+ .heder_mobai  .nav-icon .child a i {
+    color: black;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+ .heder_mobai  .nav-icon .child a img{
+    
+}
+
+
+
+/* ==================== .heder_mobai ================*/
+
+
+
+
 
 /* ========== section ==================*/
 
     /*banner*/
     section .banner {
-        width: 1200px;
+        width: 80%;
         display: flex;
         margin: 0 auto;
     }
@@ -305,6 +442,7 @@ section .top_product .proudct_background .inside .child .product  {
     margin-top: 40px;
     width: 90%;
     height: 300px;
+    margin-left: 10px;
 }
 section .top_product .proudct_background .inside .child .product .slide-child .img_nen img {
     position: relative;
@@ -331,9 +469,242 @@ section .top_product .proudct_background .inside .child .product .slide-child .i
     font-weight: 500;
     color: red;
  }
+ section .top_trademark {
+
+ }
+ section .top_trademark .tradedark-inside {
+     border-radius: 10px;
+     width: 80%;
+     height: auto;
+     background-color: white;
+     margin: 0 auto;
+ }
+ section .top_trademark .tradedark-inside .trandemark {
+     width: 95%;
+     margin: 2% 3%;
+     height: 300px;
+ }
+ section .top_trademark .tradedark-inside  .title {
+     border-left: 5px solid;
+     padding: 5px;
+     margin-left: 30px;
+     margin-top: 10px;
+ }
+ section .top_trademark .tradedark-inside  .title h2 {
+    margin-left: 10px;
+}
+ section .top_trademark .tradedark-inside .trandemark .child {
+     margin: 10px;
+     float: left;
+ }
+ section .top_trademark .tradedark-inside .trandemark .child .img_child {
+    padding: 10px;
+    border:  3px solid #009362;
+    border-radius: 10px;
+ }
+ section .top_trademark .tradedark-inside .trandemark .child .img_child img{
+     width: 140px;
+     height: 130px;
+ }
+ section .top_trademark .tradedark-inside .trandemark .child .text {
+     margin-top: 40px;
+     text-align: center;
+     font-weight: 600;
+ }
+ section .advertisement {
+     margin: 30px 0;
+ }
+ section .advertisement .child  {
+    width: 80%;
+    margin: 0 auto;
+ }
+ section .advertisement .child img{
+   width: 100%;
+    border-radius: 10px;
+   
+ }
 /* Top Peoduct*/ 
 
+/*chưng bài Iphone*/
+section .display_iphone .inside_iphone{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+}
 
+
+section .display_iphone .inside_iphone .padding_iphone{
+    padding: 10px;
+}
+section .display_iphone .inside_iphone .padding_iphone .title{
+    margin: 10px;
+    border-left: 5px solid black;
+}
+section .display_iphone .inside_iphone .padding_iphone .title h2 {
+    margin: 0 10px;
+}
+section .display_iphone .inside_iphone .padding_iphone .product{
+    margin-top: 40px;
+    display: flex;
+}
+section .display_iphone .inside_iphone .padding_iphone .product .child{
+   
+    position: relative;
+    margin-left: 25px;
+    width: 210px;
+    height: 300px;
+}
+section .display_iphone .inside_iphone .padding_iphone .product .child .img-nen img {
+   position: relative;
+    width: 210px;
+    height: 210px;
+    z-index: 200;
+}
+section .display_iphone .inside_iphone .padding_iphone .product .child .img-produdct{
+    position: absolute;
+    top: 0;
+    left: 2px;
+    z-index: 100;
+}
+section .display_iphone .inside_iphone .padding_iphone .product .child .img-produdct img {
+    width: 200px;
+    height: 200px;
+
+}
+
+section .display_iphone .inside_iphone .padding_iphone .product .child .text{
+    margin-top: 10px;
+}
+
+section .display_iphone .inside_iphone .padding_iphone .product .child .text p {
+    font-weight: 600;
+}
+section .display_iphone .inside_iphone .padding_iphone .product .child .text span {
+    margin-top: 20px;
+    color: red;
+    font-weight: 700;
+}
+/*chưng bài Iphone*/
+
+
+/* chung bay lap top*/
+
+section .display_LapTop .inside_LapTop{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+}
+
+
+section .display_LapTop .inside_LapTop .padding_LapTop{
+    padding: 10px;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .title{
+    margin: 10px;
+    border-left: 5px solid black;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .title h2 {
+    margin: 0 10px;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product{
+    margin-top: 40px;
+    display: flex;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child{
+   
+    position: relative;
+    margin-left: 25px;
+    width: 210px;
+    height: 300px;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .img-nen img {
+   position: relative;
+    width: 210px;
+    height: 210px;
+    z-index: 200;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .img-produdct{
+    position: absolute;
+    top: 0;
+    left: 2px;
+    z-index: 100;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .img-produdct img {
+    width: 200px;
+    height: 200px;
+
+}
+
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .text{
+    margin-top: 10px;
+}
+
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .text p {
+    font-weight: 600;
+}
+section .display_LapTop .inside_LapTop .padding_LapTop .product .child .text span {
+    margin-top: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+/* chung bay lap top*/
 
 /*================== section ==================*/
 
+
+
+/*================ footer ====================*/
+footer{
+    margin-top: 50px;
+    background-color: white ;
+    
+}
+footer .inside_footer{
+    background-color: white ;
+    width: 80%;
+    margin: 0 auto;
+} 
+footer .inside_footer .pass_footer{
+    display: flex;
+}
+
+footer .inside_footer .pass_footer .col-1{
+   margin-top: 40px;
+   margin-left: 80px;
+   margin-bottom: 80px;
+} 
+
+footer .inside_footer .pass_footer .col-1 p {
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+footer .inside_footer .pass_footer .col-1 .active{
+    font-weight: 600;
+}
+
+
+
+/*================ footer ====================*/
+
+
+/*================ Lien_he ===================*/
+.Lien_he {
+    margin: 40px 0;
+}
+.Lien_he .inside-contact {
+    width: 80%;
+    margin: 0 auto;
+}
+.Lien_he .inside-contact .text {
+    margin: 20px 0;
+}
+
+.Lien_he .inside-contact>p {
+    font-weight: 600;
+}
+
+/*================ Lien_he ===================*/
